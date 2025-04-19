@@ -32,7 +32,7 @@
 // * 3
 import { useSelector, useDispatch } from "react-redux";
 import { Button } from "../Button/Button";
-import { setStatusFilter } from "../../redux/actions";
+import { setStatusFilter } from "../../redux/filtersSlice";
 import css from "./StatusFilter.module.css";
 
 export const StatusFilter = () => {
